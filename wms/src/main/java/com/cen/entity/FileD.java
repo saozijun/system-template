@@ -10,12 +10,9 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * <p>
  * 文件上传的列表
- * </p>
  *
  * @author volcano
- * @since 2025-03-20
  */
 @Data
 @NoArgsConstructor

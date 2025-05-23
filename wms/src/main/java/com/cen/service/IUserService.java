@@ -10,7 +10,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author volcano
- * @since 2025-03-20
+ * 
  */
 public interface IUserService extends IService<User> {
 

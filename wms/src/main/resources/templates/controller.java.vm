@@ -17,12 +17,9 @@ import ${superControllerClassPackage};
 #end
 
 /**
- * <p>
  * $!{table.comment} 前端控制器
- * </p>
  *
  * @author ${author}
- * @since ${date}
  */
 @RestController
 @RequestMapping("#if(${package.ModuleName})/${package.ModuleName}#end/#if(${controllerMappingHyphenStyle})${controllerMappingHyphen}#else${table.entityPath}#end")

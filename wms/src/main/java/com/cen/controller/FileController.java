@@ -28,12 +28,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * <p>
  * 文件上传的列表 前端控制器
- * </p>
  *
  * @author volcano
- * @since 2025-03-20
  */
 @RestController
 @RequestMapping("/file")

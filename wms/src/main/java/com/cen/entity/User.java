@@ -11,12 +11,9 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 
 /**
- * <p>
- *
- * </p>
  *
  * @author volcano
- * @since 2025-03-20
+ * 
  */
 @Data
 @NoArgsConstructor

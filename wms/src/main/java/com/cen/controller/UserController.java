@@ -36,12 +36,9 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * <p>
  *  前端控制器
- * </p>
  *
  * @author volcano
- * @since 2025-03-20
  */
 @RestController
 @RequestMapping("/user")
@@ -103,14 +100,6 @@ public class UserController {
         queryWrapper.eq("md5",md5);
         List<User> fileslist = userMapper.selectList(queryWrapper);
         return fileslist.size()==0?null:fileslist.get(0);
-    }
-    // 查询学生列表
-    @GetMapping("/student/list")
-    public Result getStudentList() {
-        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq("role", "student");  // 根据role字段筛选学生
-        queryWrapper.orderByDesc("id");
-        return Result.success(userService.list(queryWrapper));
     }
 }
 

@@ -16,12 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * <p>
  *  前端控制器
- * </p>
  *
  * @author volcano
- * @since 2025-03-20
  */
 @RestController
 @RequestMapping("/role")
